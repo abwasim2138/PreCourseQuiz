@@ -10,6 +10,16 @@ Don't forget to call the function at the bottom
 
 import Foundation
 
+var isCoding: Bool = true
 
+func setBusyStatus(bool: Bool) {
+    if bool {
+        print("Don't bug me!")
+    }else{
+        print("What's UP?")
+    }
+}
+
+setBusyStatus(isCoding)
 //: [Previous](@previous)
 //: [Next](@next)
